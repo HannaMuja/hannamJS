@@ -20,7 +20,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(157, 144, 133, 1);
+    background-color: rgba(157, 144, 133, 1)  ;
     justify-content: flex-end;
 }
 
