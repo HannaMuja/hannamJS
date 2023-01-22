@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <title>HannaM</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"> <img src="loggish.png" alt="logotyp" class="logga"> </a>
+        </div>
+        <nav class="nav">
+            <!--Länkarna i navbaren nedan.-->
+            <!--Den class som är namngiven med active är den rubriken som kommer vara svart i navbaren 
+            för att visa användaren vilken sida den befinner sig på-->
+            <!--href visar vilken fil med kod som ska läsas av om man trycker på den sidan-->
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="portfolio" href="portfolio.html">Portfolio</a></li>
+                <li><a class="aboutme" href="aboutme.html">About Me</a></li>
+                <li><a class="resume" href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Nedan visas en välkomsttext med kort informationhh-->
+    <!--h1 är heading nivå 1 och p står för paragraf-->
+    <!--h1 och p är inbäddade i ett div element som har fått class text1. Alltså har h1 och p laggts
+    in i en "grupp" så att ändringar i css som anropar text1 inkluderar både h1 och p-->
+    <!-- I texten finns en länk till Chas academys sida. För att länken ska öppnas i en ny flik har target attribut laggts till.--> 
+    <!-- I texten finns även en popup när man trycker på contact med med min mailadress.--> 
+    <div class="text1">
+        <h1>Hanna Mujakovic</h1>
+        <p class="text2">UX-Student at <strong><a class="chas" href="https://chasacademy.se/" target="_blank">Chas Academy.</a></strong></p>
+        <p class="contact"> For inquiries <div class="popup" onclick="myFunction()">contact me
+            <span class="popuptext" id="myPopup">hannamujakovic@hotmail.com</span>
+          </div> </p>
+            </div>
+            <!--När användaren klickar på div, öppnas popup-->
+            <script>
+                function myFunction() {
+                  var popup = document.getElementById("myPopup");
+                  popup.classList.toggle("show");
+                }
+                </script>
+                
+
+    <!--Nedan finns två kort med text och bilder. Class container ändrar hela kortet. Class card ändrar kortet utan bild
+    och class card-image ändrar bilden. h2 är header nivå 2 som är titeln och p står för paragraf-->
+    <section class="container">
+        <div class="card">
+            <img class="bild" src="jagg1.jpg" alt="Profile picture" width="320" height="250">
+            <h2>Hi &#128075;</h2>
+            <p>My name is Hanna. I am a UX-design and requirement management student at Chas Academy.</a> I have previously studied <br> sociology and tourism and graduaded in <br> 2020.</p>
+            <a class="readm" href="aboutme.html">Read More</a>
+        </div>
+        <div class="card">
+            <img class="bild" src="kprojekt.png" alt="picture of a project" width="320" height="250">
+            <h2>Project Studera Koranen</h2>
+            <p>Studera Koranen was the first project I participated in. The purpose was to merge two existing web pages into one. The design was created based on a list of requirements from the client and research.</p>
+           <a class="readm" href="portfolio.html">Read More</a>
+        </div>
+        <div class="card">
+            <img class="bild" src="hgprojekt.png" alt="picture of project" width="320" height="250">
+            <h2>Project Hidden Gems</h2>
+            <p>Hidden Gems is the first prototyp I ever designed without much knowledge about UI and UX. Hidden Gems is a travel app for people who want to explor an experience the undiscovered parts of the world.</p>
+            <a class="readm" href="portfolio.html">Read More</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-header">
+            <div class="footer-title">
+                <div class="linkedin"><a class="fa fa-linkedin" href="https://www.linkedin.com/in/hanna-mujakovic-a8812a1b5/" target="_blank"></a>
+                </div><br>
+                Copyright &copy; Hanna Mujakovic 2023 
+                
+    </div>
+        
+    </footer>
+    
+</body>
+</html>
