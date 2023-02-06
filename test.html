@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>HannaM</title>
+</head>
+<body>
+    
+        <div id="logo">
+            <a href="index.html"> <img src="loggish.png" alt="logotyp" class="logga"> </a>
+        </div>
+        <nav class="nav">
+            <!--Länkarna i navbaren nedan.-->
+            <!--Den class som är namngiven med active är den rubriken som kommer vara svart i navbaren 
+            för att visa användaren vilken sida den befinner sig på-->
+            <!--href visar vilken fil med kod som ska läsas av om man trycker på den sidan-->
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="portfolio" href="portfolio.html">Portfolio</a></li>
+                <li><a class="aboutme" href="aboutme.html">About Me</a></li>
+                <li><a class="resume" href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+        <header> 
+
+            <div class="onClickTextOverImage"
+              style="background-image:url(https://scontent-arn2-2.xx.fbcdn.net/v/t39.30808-6/328056684_1780501628987729_3694185756232848767_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=X2ryqwzjzOcAX85-jFj&_nc_ht=scontent-arn2-2.xx&oh=00_AfCel0FYtxBls2Zi7uIQybcJrH6UaHwOfO7yv8tHVsKb-w&oe=63DFEA45)"> 
+                <h2>Hi</h2><div>text text text text</div>
+            </div>
+
+        </header>
+    <!--Nedan visas en välkomsttext med kort informationhh-->
+    <!--h1 är heading nivå 1 och p står för paragraf-->
+    <!--h1 och p är inbäddade i ett div element som har fått class text1. Alltså har h1 och p laggts
+    in i en "grupp" så att ändringar i css som anropar text1 inkluderar både h1 och p-->
+    <!-- I texten finns en länk till Chas academys sida. För att länken ska öppnas i en ny flik har target attribut laggts till.--> 
+    <!-- I texten finns även en popup när man trycker på contact med med min mailadress.--> 
+ 
+
+            <section class="etta">
+                <img class="jag" src="hje.jpg" alt="Profile picture" width="140" height="150">
+               <div class="sak"><h1> Hanna Mujakovic</h1>
+                <p class="text2">UX-Student at <strong><a class="chas" href="https://chasacademy.se/" target="_blank">Chas Academy.</a></strong><br>For inquiries contact me: hannamujakovic@hotmail.com </p></div>
+            </section>
+                 
+  </div>
+
+    <!--Nedan finns två kort med text och bilder. Class container ändrar hela kortet. Class card ändrar kortet utan bild
+    och class card-image ändrar bilden. h2 är header nivå 2 som är titeln och p står för paragraf-->
+    <section class="container"> 
+        <div class="card">
+            <img class="bild" src="kprojekt.png" alt="picture of a project" width="620" height="350">
+            <div><h2>Project Studera Koranen</h2>
+            <p>Studera Koranen was the first project I participated in. The purpose was to merge two existing web pages into one. The design was created based on a list of requirements from the client and research.</p>
+           <a class="readm" href="portfolio.html">Read More</a></div>
+        </div>
+    </div>
+        <div class="card">
+            <img class="bild" src="hgprojekt.png" alt="picture of project" width="1150" height="350">
+           <div> <h2>Project Hidden Gems</h2>
+            <p>Hidden Gems Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ipsam quia molestiae consequuntur quibusdam sequi eaque iure cupiditate In ipsam quia quibusdam.</p>
+            <a class="readm" href="portfolio.html">Read More</a></div>
+        </div>
+    
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer"> 
+        <div class="footer-header">
+            <div class="footer-title">
+                <div class="linkedin"><a class="fa fa-linkedin" href="https://www.linkedin.com/in/hanna-mujakovic-a8812a1b5/" target="_blank"></a>
+                </div><br>
+                Copyright &copy; Hanna Mujakovic 2023 
+                
+    </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

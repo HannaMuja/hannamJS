@@ -1,0 +1,219 @@
+.etta {
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+    padding-top: 20px;
+    height: 200px;
+  }
+  
+  .jag {
+    border-radius: 35px;
+  }
+  .sak{
+    color: white;
+    padding-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    font-size: large
+    ;
+  }
+  .sak > h1 {
+    font-size: 40px;
+  }
+    #logo {
+        top: 0.5rem;
+        left: 1rem;
+        position: absolute;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    
+     #logo img {
+        max-width: 7rem;
+        max-height: 3rem;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(157, 144, 133, 1)  ;
+        justify-content: flex-end;
+    }
+    
+    li a {
+        display: flex;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: 10px;
+        text-decoration: none;
+        font-size: medium;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    
+    }
+    
+    li a:hover{
+        color: rgb(0, 0, 0);
+        transition: 0,7s;
+        color: rbg(178, 233, 228);
+    }
+    
+    .active {
+        color: black;
+        font-weight: bold;
+    }
+    
+    body {
+        background-color: rgb(226, 220, 210);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        background: rgb(226, 220, 210);
+        width: 1000px;
+        margin: 25px;
+        border-radius: 35px;
+        display: flex;
+        
+    }
+    
+    .card-image {
+        background-color: rgb(61, 211, 15);
+        height: 200px;
+        margin-bottom: 15px;
+        border-radius: 35px;
+        background-size: cover;
+    }
+    
+    .text1 {
+        text-align: center;
+        color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+        line-height: normal;
+    
+    }
+    .contact {
+        font-size: medium;
+        padding-top: 30px;
+    }
+    
+    
+     a:hover {
+        color: #66b0c8; 
+    }
+    a:link {
+        text-decoration:none; 
+              }
+    
+    .chas {
+    color: rgb(130, 125, 125);
+    
+     }
+    
+     .chas1 {
+        color: rgb(132, 117, 220);
+     }
+    
+     .card h2 {
+        text-align: center;
+        padding-top: 50px;
+     }
+     .card p {
+        padding: 10px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        padding-bottom: 80px;
+     }
+    
+     .readm{
+        background-color: black;
+        color: white;
+        padding: 10px 15px;
+        display: block;
+        text-align: center;
+        margin: 20px 100px;
+        text-decoration: none;  
+        cursor: pointer; 
+        
+     }
+    
+     .card:hover {
+        background-color: rgb(75, 75, 73);
+        color: white;
+        transform: scale(1.03);
+        transition: all 1s ease;
+     }
+    
+     .fa-linkedin {
+        color: white;
+        border-style:solid ;
+        padding: 2px 4px;
+        border-radius: 3px;
+        margin: auto;
+      }
+      .linkedin {
+        padding-top: 17px;
+        padding-right:  15px;
+      }
+    
+    
+    .bild{
+        border-radius: 35px 35px 35px 35px;
+        
+       
+    }
+    
+    .footer {
+        background-color: black;
+        color: rgb(216, 209, 209);
+        text-align:center;
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        justify-content: center;
+    
+    }
+    
+    h1.page-header {
+        margin: 0;
+        padding: 0;
+      }
+      p, h1 {
+        margin: 0px;
+        padding: 0px;
+      }
+      
+      h1 {
+        padding-top: 30px;
+      }
+    
+      @media (max-width: 576px) {
+       
+    
+    
+      }
+      @media (max-width: 533px) {
+        #logo img {
+            max-width: 0rem;
+        }
+        ul {
+            justify-content: center ;
+        }
+    }
+

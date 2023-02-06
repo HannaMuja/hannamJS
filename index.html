@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="script.js"></script>
     <title>HannaM</title>
 </head>
-<body>
+<body>  
     <header>
+        
+        
         <div id="logo">
-            <a href="index.html"> <img src="loggish.png" alt="logotyp" class="logga"> </a>
+            <a href="index.html"> <img src="hhhaaa.png" alt="logotyp" class="logga"> </a>
         </div>
         <nav class="nav">
             <!--Länkarna i navbaren nedan.-->
@@ -24,39 +25,44 @@
                 <li><a class="portfolio" href="portfolio.html">Portfolio</a></li>
                 <li><a class="aboutme" href="aboutme.html">About Me</a></li>
                 <li><a class="resume" href="resume.html">Resume</a></li>
+                <img src="sun.png" id="icon"> <!--Här är sol-ikonen som syns i navbaren.-->
             </ul>
+            
+           
         </nav>
     </header>
-    <!--Nedan visas en välkomsttext med kort informationhh-->
-    <!--h1 är heading nivå 1 och p står för paragraf-->
-    <!--h1 och p är inbäddade i ett div element som har fått class text1. Alltså har h1 och p laggts
-    in i en "grupp" så att ändringar i css som anropar text1 inkluderar både h1 och p-->
-    <!-- I texten finns en länk till Chas academys sida. För att länken ska öppnas i en ny flik har target attribut laggts till.--> 
-    <!-- I texten finns även en popup när man trycker på contact med med min mailadress.--> 
-    <div class="text1">
-        <h1>Hanna Mujakovic</h1>
-        <p class="text2">UX-Student at <strong><a class="chas" href="https://chasacademy.se/" target="_blank">Chas Academy.</a></strong></p>
-        <p class="contact"> For inquiries <div class="popup" onclick="myFunction()">contact me
-            <span class="popuptext" id="myPopup">hannamujakovic@hotmail.com</span>
-          </div> </p>
-            </div>
-            <!--När användaren klickar på div, öppnas popup-->
-            <script>
-                function myFunction() {
-                  var popup = document.getElementById("myPopup");
-                  popup.classList.toggle("show");
-                }
-                </script>
-                
 
-    <!--Nedan finns två kort med text och bilder. Class container ändrar hela kortet. Class card ändrar kortet utan bild
+   <!--Nedan finns en bild med text över när man hovrar.-->
+    <section class="etta">
+        <div class="onClickTextOverImage"
+    style="background-image:url(https://scontent-arn2-2.xx.fbcdn.net/v/t39.30808-6/328056684_1780501628987729_3694185756232848767_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=X2ryqwzjzOcAX85-jFj&_nc_ht=scontent-arn2-2.xx&oh=00_AfCel0FYtxBls2Zi7uIQybcJrH6UaHwOfO7yv8tHVsKb-w&oe=63DFEA45)"> 
+      <div>Hi &#128075; <br> Welcome to my portfolio.
+I am a curious student who loves to analyze and solve problems. Feel free to look around and contact me if you have any questions.</div>
+  </div>
+
+    <!--Nedan visas en välkomsttext med kort information-->
+    <!--h1 är heading nivå 1 och p står för paragraf-->
+    <!--h1 och p är inbäddade i ett div element. Alltså har h1 och p laggts in i en "grupp" så att ändringar i css som anropar text1 inkluderar både h1 och p-->
+    <!-- I texten finns en länk till Chas academys sida. För att länken ska öppnas i en ny flik har target attribut laggts till.--> 
+
+       <div class="sak">
+        <h1> Hanna Mujakovic</h1>
+       <p class="text2">UX-Student at <strong><a class="chas" href="https://chasacademy.se/" target="_blank">Chas Academy.</a></strong><br>For inquiries contact me: hannamujakovic@hotmail.com  </p>
+    </div>
+</div>
+    </section>
+
+   <!--Detta är till för att förklara DOM manipulering i JS:
+     <h1 id="heading"> Hanna Mujakovic</h1>--> 
+
+    <!--Nedan finns tre kort med text och bilder. Class container ändrar hela kortet. Class card ändrar kortet utan bild
     och class card-image ändrar bilden. h2 är header nivå 2 som är titeln och p står för paragraf-->
     <section class="container">
         <div class="card">
-            <img class="bild" src="jagg1.jpg" alt="Profile picture" width="320" height="250">
-            <h2>Hi &#128075;</h2>
-            <p>My name is Hanna. I am a UX-design and requirement management student at Chas Academy.</a> I have previously studied <br> sociology and tourism and graduaded in <br> 2020.</p>
-            <a class="readm" href="aboutme.html">Read More</a>
+            <img class="bild" src="hgprojekt.png" alt="picture of project" width="320" height="250">
+            <h2>Project Hidden Gems</h2>
+            <p>Hidden Gems Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ipsam quia molestiae consequuntur quibusdam sequi eaque iure cupiditate In ipsam quia quibusdam.</p>
+            <a class="readm" href="portfolio.html">Read More</a>
         </div>
         <div class="card">
             <img class="bild" src="kprojekt.png" alt="picture of a project" width="320" height="250">
@@ -83,6 +89,7 @@
     </div>
         
     </footer>
-    
+
+    <script src="script.js"></script>
 </body>
 </html>
